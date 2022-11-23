@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { defineConfig } from 'cypress';
 import reset from './prisma/reset.cjs';
 import seed from './prisma/seed.cjs';

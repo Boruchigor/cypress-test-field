@@ -13,7 +13,7 @@
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "db:setup": "prisma db push",
     "cy:run": "cypress run",
-    "test": "start-server-and-test start http://localhost:3000 cy:run"
+    "test": "start-server-and-test start http://localhost:3000 cy:run --record"
   },
   "prisma": {
     "seed": "node prisma/reset.cjs"
