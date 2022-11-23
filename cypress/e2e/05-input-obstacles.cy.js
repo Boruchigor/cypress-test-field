@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /// <reference types="cypress" />
 
 describe('Input obstacles', () => {
@@ -28,6 +29,7 @@ describe('Input obstacles', () => {
 
   it('should find and control a color input', () => {
     cy.get('[data-test="color-input"]').invoke('val', '#0000ff').trigger('input');
+    cy.pause();
     cy.get('[data-test="color-result"]').contains('#0000ff');
   });
 

@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe('Secret Menu with Cypress Studio', () => {
   beforeEach(() => {
     cy.visit('/secret-menu');
