@@ -3,7 +3,7 @@ import reset from './prisma/reset.cjs';
 import seed from './prisma/seed.cjs';
 
 export default defineConfig({
-  projectId: 'hmsp64',
+  projectId: '6endva',
   e2e: {
     baseUrl: 'http://localhost:3000',
     experimentalSessionAndOrigin: true,

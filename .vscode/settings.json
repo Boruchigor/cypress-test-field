@@ -1,3 +1,11 @@
 {
-  "files.associations": { "*.css": "postcss" }
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "cSpell.words": [
+    "endva",
+    "sveltejs",
+    "tailwindcss",
+    "zerodevx"
+  ]
 }
