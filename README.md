@@ -2,6 +2,8 @@ this repository was created thanks to Steve Kinney, which was providing course o
 
 # Cypress Playground
 
+Will be developed with additional pages and test cases in reliance to what will be necessary for us in the future!
+
 ## Getting Started
 
 First and foremost, install your dependencies.
