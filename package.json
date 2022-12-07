@@ -12,7 +12,7 @@
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "db:setup": "prisma db push",
-    "cy:run": "cypress run --record --key 72feffe3-094c-4c36-9c62-93741eec2fba",
+    "cy:run": "cypress run",
     "test": "start-server-and-test start http://localhost:3000 cy:run",
     "cy:open": "cypress open"
   },
