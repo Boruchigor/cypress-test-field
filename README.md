@@ -1,3 +1,5 @@
+this repository was created thanks to Steve Kinney, which was providing course on front-end Masters - https://github.com/stevekinney
+
 # Cypress Playground
 
 ## Getting Started
